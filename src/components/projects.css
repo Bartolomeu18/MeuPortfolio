@@ -1,0 +1,68 @@
+
+
+#projectH1{
+    margin: 40px;
+    text-align: center;
+    margin-top: 5%;
+
+}
+.myPorject{
+    display: flex;
+    margin-bottom: 10%;
+    justify-content:center;
+    gap: 30px;
+    color: whitesmoke;
+}
+#discriptionConteiner{
+    margin-left: 20%;
+    text-align: left;
+}
+#discriptionConteiner #projectDicription{
+    margin: 5px;
+    text-align: left;
+}
+ #workby{
+    background-color: rgb(45, 45, 45);
+    color: rgb(117, 117, 117);
+    margin: 10px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+        
+}
+#viewGit{
+    text-decoration: none;
+    background: linear-gradient(45deg, #343232,#750E21);     
+    border-radius: 5px;
+    padding: 8px;
+    margin: 15px;  
+    font-size: large;
+    cursor: pointer; 
+}
+#viewGit a{
+    text-decoration: none;
+    color:whitesmoke;
+}
+#viewProj{
+    text-decoration: none;
+     background: none;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 15px;
+    font-size: large;  
+    cursor: pointer;
+}
+#viewProj a{
+    text-decoration: none;
+  background: linear-gradient(45deg, #343232,#750E21);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent; 
+}
+#imgConteiner {
+   width: 120%;
+}
+#imgConteiner img{
+    border-radius: 5px;
+    width: 80%;
+}
