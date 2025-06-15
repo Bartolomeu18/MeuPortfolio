@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    color: whitesmoke;
+    font-size: larger;
+}
+
+.contactConteinar {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left:10%;
+    width: 80%;
+   display:block;
+   align-items: center;
+}
+
+form {
+    background-color: rgb(45, 45, 45);
+    width: 50%;
+    border-radius:5px ;
+    box-shadow: 1px 1px 20px #761f2ed2;
+    margin-bottom: 40px;
+    margin-left: 24%;
+
+
+}
+
+label {
+    /*color: rgb(117, 117, 117);*/
+    color: whitesmoke;
+    display: block;
+    font-size: larger;
+    text-align: left;
+    margin: 3%;
+    margin-left:7%;
+}
+input{
+    background-color: #422B2F;
+    border-radius: 5px;
+    color: whitesmoke;
+    padding: 8px;
+    width: 70%;
+    margin-left:7%;
+    border: none;
+}
+input::placeholder {
+color: whitesmoke;
+font-family: 'Share Tech Mono';
+
+}
+textarea::placeholder {
+margin-left: 2px;
+color: whitesmoke;
+}
+
+#textoContent{
+    background-color: #422B2F;
+    margin-left: 7%;
+    border-radius:5px ;
+    border: none;
+}
+#enviar{
+    background: linear-gradient(45deg, #343232,#750E21);
+    color: whitesmoke;
+    border-radius: 5px;
+    padding: 8px; 
+    font-size: large;
+    cursor: pointer; 
+    display: block;
+    margin: 20px;
+    margin-left: 22%;
+    width: 54%;
+}/*
+#enviar:hover{
+     transition: 0.5s ease-in-out;
+      box-shadow: 2px 1px 1px#bb3d54d2;
+
+}*/
+#contactList{
+    display:flex;
+    align-items: center;
+    padding: 5px;
+}
+#Itens{
+    list-style: none;
+    cursor: pointer;
+    pad: 5px;
+}
+
+#Itens a{
+    color: whitesmoke;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

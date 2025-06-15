@@ -5,6 +5,7 @@ import App from '../src/components/App'
 import Hability from './components/Hability'
 import About from './components/About'
 import Progects from './components/progects'
+import Contact from './components/contact'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -12,5 +13,6 @@ createRoot(document.getElementById('root')).render(
     <Hability />
     <About></About>
     <Progects />
+   <Contact></Contact>
   </StrictMode>,
 )

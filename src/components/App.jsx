@@ -19,7 +19,7 @@ function App() {
     <div id='hello'>
     <h2>Olá,eu sou <span>Bartolomeu</span></h2>
     <h1>Desenvolvedor Fullstack</h1>
-   <p id="p">Codando o futuro, um projeto por vez.🚀🌐</p> 
+   <p id="p">Transformando Ideias em Tecnologia.⚙️</p> 
     <br/>
     <button id='btn_prog'>Progectos</button>
     <button id='btn_conct'>Contactar</button>
