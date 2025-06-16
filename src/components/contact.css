@@ -80,6 +80,7 @@ color: whitesmoke;
     margin: 20px;
     margin-left: 22%;
     width: 54%;
+    border: none;
 }/*
 #enviar:hover{
      transition: 0.5s ease-in-out;

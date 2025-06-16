@@ -10,15 +10,15 @@ function Contact() {
             <h1>Contactos</h1>
             <p>Você teve uma ideia legal? entre em contacto e juntos transformamos ela tecnologia.⚙️ </p>
             <div className='contactConteinar'>
-                <form action="" method="post">
+                <form action="https://formsubmit.co/bartolomeunhongo@gmail.com" method="post">
                     <br></br>
-                    <label htmlFor="email">Email:</label>
-                    <input type="email" name="email" id="email" placeholder='Digite o seu Email'/>
-                    <label htmlFor="assunto">Assunto:</label>
-                    <input type="text" name="assunto" id="assunto" placeholder='Digite o Assunto'/>
-                    <label htmlFor="tmensagem">Texto:</label>
-               <textarea name="mensagem" rows="5" cols="50" placeholder="Digite sua mensagem..." id='textoContent'></textarea>
-                <input type="submit" value="Enviar" name="enviar" id="enviar" />
+                    <label htmlFor="email">Nome:</label>
+                    <input type="text" name="name" className="form-control" id="email" placeholder='Digite o seu o seu Nome' required/>
+                    <label htmlFor="assunto">Email:</label>
+                    <input type="email" name="email" class="form-control"  id="assunto" placeholder='Digite o Assunto'required/>
+                    <label htmlFor="tmensagem">Mensagem:</label>
+               <textarea class="form-control" name="message" rows="10" cols="50" placeholder="Digite sua mensagem..." id='textoContent'required ></textarea>
+                    <button type="submit" id="enviar" >Enviar</button>
                <br></br>
                 </form>
                     <ul id='contactList'>
