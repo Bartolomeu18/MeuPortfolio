@@ -6,6 +6,7 @@ import Hability from './components/Hability'
 import About from './components/About'
 import Progects from './components/progects'
 import Contact from './components/contact'
+import Footer from './components/footer'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -14,5 +15,6 @@ createRoot(document.getElementById('root')).render(
     <About></About>
     <Progects />
    <Contact></Contact>
+   <Footer></Footer>
   </StrictMode>,
 )

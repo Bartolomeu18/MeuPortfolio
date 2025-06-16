@@ -6,23 +6,23 @@ function App() {
 
   return (
     <>
-  <nav className='menu_conteiner'>
-    <p>Bartolomeu Sebastião</p>
+  <nav className='menu_conteiner' id='helloConteiner'>
+    <p>{'</'}Bartolomeu Sebastião{'>'}</p>
     <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#aboutConteiner">Sobre</a></li>
-      <li><a href="#">Projecto</a></li>
-      <li><a href="#" id='contacte'>Conctactos</a></li>
+      <li><a href="./App.jsx" id='hoLINK'>Home</a></li>
+      <li><a href="#aboutConteiner" id='SoLink'>Sobre</a></li>
+      <li><a href="#projectH1" id='PrLink'>Projecto</a></li>
+      <li><a href="#contct" id='contacte'>Conctactos</a></li>
     </ul>
   </nav>
-  <div className='helloConteiner'>
+  <div className='helloConteiner' id='helloConteiner'>
     <div id='hello'>
     <h2>Olá,eu sou <span>Bartolomeu</span></h2>
     <h1>Desenvolvedor Fullstack</h1>
    <p id="p">Transformando Ideias em Tecnologia.⚙️</p> 
     <br/>
-    <button id='btn_prog'>Progectos</button>
-    <button id='btn_conct'>Contactar</button>
+    <button id='btn_prog'><a href="#projectH1">Progectos</a></button>
+    <button id='btn_conct'><a href="#contct">Contactar</a></button>
     </div>
    <div className="imgConteiner">
    <img 

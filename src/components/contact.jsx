@@ -6,9 +6,9 @@ import phone from '../assets/icons8-phone.svg'
 
 function Contact() {
     return (
-        <div>
+        <div id='contct'>
             <h1>Contactos</h1>
-            <p>Você teve uma ideia legal? entre em contacto e juntos transformamos ela tecnologia.🚀⚙️ </p>
+            <p>Você teve uma ideia legal? entre em contacto e juntos transformamos ela tecnologia.⚙️ </p>
             <div className='contactConteinar'>
                 <form action="" method="post">
                     <br></br>
