@@ -23,10 +23,10 @@ function Contact() {
                 </form>
                  <div className='contactListConteiner'>
                     <ul id='contactList'>
-                    <li id="Itens"><a href="#"><img src={github} alt="github link icon" /></a></li>
-                    <li id="Itens"><a href="#"><img src={linkedin} alt="linkedin link icon" /></a></li>
-                    <li id="Itens"><a href="#"><img src={gmail} alt="Gmail link icon" /></a></li>
-                    <li id="Itens"><a href="#"><img src={phone} alt="calls link icon " /></a></li>
+                    <li id="Itens"><a href="https://github.com/Bartolomeu18"><img src={github} alt="github link icon" /></a></li>
+                    <li id="Itens"><a href="https://www.linkedin.com/in/bartolomeu-sebasti%C3%A3o-33a91b2b2/"><img src={linkedin} alt="linkedin link icon" /></a></li>
+                    <li id="Itens"><a href="mailto:bartolomeunhongo@gmail.com"><img src={gmail} alt="Gmail link icon" /></a></li>
+                    <li id="Itens"><a href="tel:+244937812687"><img src={phone} alt="calls link icon " /></a></li>
                     </ul>
                     </div>
                 
