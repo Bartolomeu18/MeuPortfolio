@@ -116,25 +116,41 @@ color: whitesmoke;
     width: 100%;
     margin-left: 0%;
 }
-
+#contactList{
+    width: 100%;
+}
+.contactListConteiner{
+    width: 100%;
+       margin-left: 0%;
+}
 }
 /*telas de iphone x,xr*/
 @media (max-width:414px){
     form {
     width: 95%;
         margin-left: 0%;
-
 }
-
+#contactList{
+    width: 100%;
+}
+.contactListConteiner{
+    width: 100%;
+       margin-left: 0%;
+}
 }
 /*telas medias*/
 @media (max-width:510px){
     form {
     width: 100%;
         margin-left: 0%;
-
 }
-
+#contactList{
+    width: 100%;
+}
+.contactListConteiner{
+    width: 100%;
+       margin-left: 0%;
+}
 }
 
 /*telas medias grandes*/
@@ -142,7 +158,13 @@ color: whitesmoke;
     form {
     width: 100%;
         margin-left: 0%;
-
+}
+#contactList{
+    width: 100%;
+}
+.contactListConteiner{
+    width: 100%;
+       margin-left: 0%;
 }
 }
 /*telas medias grandes*/
@@ -150,6 +172,12 @@ color: whitesmoke;
     form {
     width: 100%;
         margin-left: 0%;
-
+}
+#contactList{
+    width: 100%;
+}
+.contactListConteiner{
+    width: 100%;
+       margin-left: 0%;
 }
 }
