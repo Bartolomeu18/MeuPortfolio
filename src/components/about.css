@@ -17,3 +17,19 @@ p{
     align-items: center;
 
 }
+/*trabalhando com media query 360 a 800*/
+@media(max-width:360px){
+   .aboutConteiner{
+    text-align:center; 
+    width: 90%;
+    margin-left: 5%;
+} 
+}
+/*telas de iphone x,xr*/
+@media(max-width:360px){
+   .aboutConteiner{
+    text-align:center; 
+    width: 95%;
+    margin-left: 5%;
+} 
+}

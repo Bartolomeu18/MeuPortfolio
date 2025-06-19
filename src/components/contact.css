@@ -68,6 +68,7 @@ color: whitesmoke;
     margin-left: 7%;
     border-radius:5px ;
     border: none;
+    width: 75%;
 }
 #enviar{
     background: linear-gradient(45deg, #343232,#750E21);
@@ -90,18 +91,65 @@ color: whitesmoke;
 #contactList{
     display:flex;
     align-items: center;
+    justify-content: space-around;
     padding: 5px;
+    width: 100%; 
 }
 #Itens{
     list-style: none;
     cursor: pointer;
-    pad: 5px;
 }
 
 #Itens a{
     color: whitesmoke;
     text-decoration: none;
     display: flex;
-    justify-content: space-around;
     align-items: center;
+}
+.contactListConteiner{
+    width: 50%;
+    margin-left: 25%;
+}
+/*trabalhando media querys 360 a 800 */
+@media (max-width:360px){
+    form {
+    width: 100%;
+    margin-left: 0%;
+}
+
+}
+/*telas de iphone x,xr*/
+@media (max-width:414px){
+    form {
+    width: 95%;
+        margin-left: 0%;
+
+}
+
+}
+/*telas medias*/
+@media (max-width:510px){
+    form {
+    width: 100%;
+        margin-left: 0%;
+
+}
+
+}
+
+/*telas medias grandes*/
+@media (max-width:688px){
+    form {
+    width: 100%;
+        margin-left: 0%;
+
+}
+}
+/*telas medias grandes*/
+@media (max-width:873px){
+    form {
+    width: 100%;
+        margin-left: 0%;
+
+}
 }

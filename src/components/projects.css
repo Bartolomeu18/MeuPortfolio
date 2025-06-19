@@ -26,8 +26,7 @@
     margin: 10px;
     padding: 8px;
     border: none;
-    border-radius: 5px;
-        
+    border-radius: 5px;     
 }
 #viewGit{
     text-decoration: none;
@@ -64,4 +63,168 @@
 #imgConteiner img{
     border-radius: 5px;
     width: 80%;
+}
+.textN{
+display: none;
+}
+.mobileBTN{
+    display: none;
+}
+/*trabalhando na resposividade 360 a 800*/
+@media (max-width:360px){
+    .myPorject {
+    display: flex;
+    flex-direction: column;
+}
+#discriptionConteiner{
+    margin-left: 2%;
+}
+.textN{
+text-align: left;
+display: block;
+margin: 5px;
+}
+#imgConteiner img{
+margin-left: 2%;
+}
+.BgScreenBTN{ 
+    display: none;
+}
+.mobileBTN{
+    display:block;
+}
+.txBgScreen{
+    display: none;
+}
+ #workby{
+    margin: 5px;
+    padding: 8px;    
+}
+}
+/*tela de iphone x,xr*/
+@media (max-width:414px){
+    .myPorject {
+    display: flex;
+    flex-direction: column;
+}
+#discriptionConteiner{
+    margin-left: 2%;
+}
+.textN{
+text-align: left;
+display: block;
+margin: 5px;
+}
+#imgConteiner img{
+margin-left: 2%;
+}
+.BgScreenBTN{ 
+    display: none;
+}
+.mobileBTN{
+    display:block;
+}
+.txBgScreen{
+    display: none;
+}
+ #workby{
+    margin: 5px;
+    padding: 8px;    
+}
+}
+/*telas media grandes*/
+
+@media (max-width:510px){
+ .myPorject {
+    display: flex;
+    flex-direction: column;
+}
+#discriptionConteiner{
+    margin-left: 2%;
+}
+.textN{
+text-align: left;
+display: block;
+margin: 5px;
+}
+#imgConteiner img{
+margin-left: 2%;
+}
+.BgScreenBTN{ 
+    display: none;
+}
+.mobileBTN{
+    display:block;
+}
+.txBgScreen{
+    display: none;
+}
+ #workby{
+    margin: 5px;
+    padding: 8px;    
+}
+}
+/*telas media grandesII*/
+
+@media (max-width:688px){
+ .myPorject {
+    display: flex;
+    flex-direction: column;
+}
+#discriptionConteiner{
+    margin-left: 2%;
+}
+.textN{
+text-align: left;
+display: block;
+margin: 5px;
+}
+#imgConteiner img{
+margin-left: 2%;
+}
+.BgScreenBTN{ 
+    display: none;
+}
+.mobileBTN{
+    display:block;
+}
+.txBgScreen{
+    display: none;
+}
+ #workby{
+    margin: 5px;
+    padding: 8px;    
+}
+}
+
+/*telas medias grandesIII*/
+@media (max-width:873px){
+ .myPorject {
+    display: flex;
+    flex-direction: column;
+}
+#discriptionConteiner{
+    margin-left: 2%;
+}
+.textN{
+text-align: center;
+display: block;
+margin: 5px;
+}
+#imgConteiner img{
+margin-left: 2%;
+}
+.BgScreenBTN{ 
+    display: none;
+}
+.mobileBTN{
+    display:block;
+}
+.txBgScreen{
+    display: none;
+}
+ #workby{
+    margin: 5px;
+    padding: 8px;    
+}
 }

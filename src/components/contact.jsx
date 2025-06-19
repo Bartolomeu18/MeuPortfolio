@@ -21,13 +21,14 @@ function Contact() {
                     <button type="submit" id="enviar" >Enviar</button>
                <br></br>
                 </form>
+                 <div className='contactListConteiner'>
                     <ul id='contactList'>
                     <li id="Itens"><a href="#"><img src={github} alt="github link icon" /></a></li>
                     <li id="Itens"><a href="#"><img src={linkedin} alt="linkedin link icon" /></a></li>
                     <li id="Itens"><a href="#"><img src={gmail} alt="Gmail link icon" /></a></li>
-                    <li id="Itens"><a href="#"><img src={phone} alt="" /></a></li>
+                    <li id="Itens"><a href="#"><img src={phone} alt="calls link icon " /></a></li>
                     </ul>
-                    
+                    </div>
                 
             </div>
         </div>

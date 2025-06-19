@@ -32,6 +32,7 @@ font-family: 'Share Tech Mono';
 #softSkill{
     display: block;
     margin: 10px;
+    list-style: none;
 }
 #softSkill h2{
     margin-top: 5px;

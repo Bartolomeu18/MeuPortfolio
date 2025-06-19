@@ -11,10 +11,12 @@
     display: flex;
     flex-wrap: wrap; /* Isso permite que os itens quebrem para a próxima linha */
     gap: 60px;
-
+    align-items: center;
+    justify-content: center;
 }
 #hability #iten{
     font-weight: bold;
     font-size:large;
     color: rgb(117, 117, 117);
+    list-style: none;
 }
